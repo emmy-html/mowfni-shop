@@ -2266,5 +2266,11 @@ aside.suggested-donation-bar .suggested-container {
   text-decoration: none;
   color: #a9cf38;
   padding: 10px;
-  transfo;
+}
+/* custom options plug-in */
+td.label.leftside {
+  padding: 0px !important;
+}
+td.value.leftside {
+  padding: 0px !important;
 }
