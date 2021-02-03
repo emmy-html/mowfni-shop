@@ -7,7 +7,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="shop-suggested-donation" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php
 	do_action( 'storefront_single_post_top' );
@@ -28,5 +28,4 @@
 	 */
 	do_action( 'storefront_single_post_bottom' );
 	?>
-
 </article><!-- #post-## -->

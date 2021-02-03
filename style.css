@@ -2229,6 +2229,7 @@ button.menu-toggle:after {
 .storefront-primary-navigation a:visited:hover {
     color: #a9cf38 !important;
 }
+/* custom styles */ 
 /* back to MOWFNI bar */ 
 .back-to-main {
     background: #a9cf38;
@@ -2240,4 +2241,30 @@ button.menu-toggle:after {
 .back-to-main a:link,
 .back-to-main a:visited {
     color: #003952;
+}
+/* suggested donation bar */ 
+aside.suggested-donation-bar {
+  background: #003952;
+  position: fixed !important;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  z-index: 999;
+}
+aside.suggested-donation-bar .suggested-container {
+  padding: 10px !important;
+}
+.suggested-container a:link,
+.suggested-container a:visited {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+.suggested-container a:link:hover,
+.suggested-container a:visited:hover {
+  text-decoration: none;
+  color: #a9cf38;
+  padding: 10px;
+  transfo;
 }
