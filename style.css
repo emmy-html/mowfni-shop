@@ -2274,3 +2274,7 @@ td.label.leftside {
 td.value.leftside {
   padding: 0px !important;
 }
+.wp-block-button.wc-block-grid__product-add-to-cart {
+  display: none !important;
+  visibility: hidden !important;
+}
