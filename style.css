@@ -2244,6 +2244,7 @@ button.menu-toggle:after {
 }
 /* suggested donation bar */ 
 aside.suggested-donation-bar {
+  display: none;
   background: #003952;
   position: fixed !important;
   bottom: 0px;
@@ -2253,6 +2254,7 @@ aside.suggested-donation-bar {
   z-index: 999;
 }
 aside.suggested-donation-bar .suggested-container {
+  display: none;
   padding: 10px !important;
 }
 .suggested-container a:link,
